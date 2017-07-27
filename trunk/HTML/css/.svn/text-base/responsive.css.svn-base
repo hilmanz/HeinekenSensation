@@ -1,0 +1,155 @@
+#navigation select {
+	display: none;
+	width: 70%;
+	padding: 5px 15px;
+	background: #f5f5f5;
+	color: #777;
+	border: none;
+	font-size: 14px;
+	margin: 20px auto;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+}
+.width-700{
+	display:none;
+}
+/* Responsive */
+@media only screen and (max-width: 1100px) {
+	.wrapper {
+		width: 95%;
+	}
+
+@media only screen and (max-width: 900px) {
+	.columns-content li.col-main,.columns-content li.col-sidebar{
+		clear:both;
+		float:none;
+		width:100%;
+		margin:0 0 20px 0;
+	}
+	#bodyLanding .col2{
+		width:100%;
+	}
+	#videoLanding{
+		top:auto;
+		padding:30px 0;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.columns-content li.col-main,
+	.columns-content li.col-sidebar {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	.widget{
+		max-width:inherit;
+	}
+	.width-700{
+		display:block;
+	}
+	.width-1000{
+		display:none;
+	}
+	.popup,.popupBig{
+		background:#004021;
+		width:580px;
+		overflow:hidden !important;
+		height:auto;
+	}
+	.popupEntry,.popupBig .popupEntry{
+		padding:20px 0;
+		text-align:center;
+	}
+	.popupBig .popupEntry{
+		text-align:left;
+	}
+	.popupEntry .greenBtn{
+		margin:10px auto;
+	}
+	.popupEntry .col3{
+		width:100%;
+		float:none;
+	}
+	.quizForm h3{
+		font-size:14px;
+	}
+	
+}
+
+@media only screen and (max-width: 667px) {
+	.columns-4 li.col4,.columns-2 li.col2,.columns-3 li.col3{
+		width:100%;
+		float:none;
+		clear:both;
+		margin:0;
+	}
+	#header{
+		height:auto;
+		overflow:hidden;
+	}
+	.logoSensation{
+		float:none;
+		top:auto;
+		margin:20px auto 40px auto;
+	}
+	#navigation{
+		top:auto;
+	}
+	#main-menu{
+		float:none;
+		text-align:center;
+	}
+	#main-menu a{
+		padding:0 10px;
+	}
+	#main-menu li{
+		float:none;
+		display:inline-block;
+	}
+	.imgBox{
+		width:50%;
+	}
+	#universal{
+		background:none;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.widget,.the-contents ,#userBox{
+		max-width:285px;
+		margin:0 auto 20px auto;
+	}
+	
+	.columns-2 li.col2 {
+		width: 100%;
+		margin: 0;
+	}
+	.columns-3 li.col3 {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	#userBox .greenBtn{
+		top:auto;
+		float:none;
+		margin:10px 10px 0 0;
+	}
+	.popup,.popupBig{
+		background:#004021;
+		height:auto;
+		width:285px;
+		overflow:hidden !important;
+	}
+	#videoLanding,#video-landing{
+		width:320px !important;
+		height:240px !important;
+	}
+	
+}
+
+@media only screen and (max-width: 320px) {
+	
+}

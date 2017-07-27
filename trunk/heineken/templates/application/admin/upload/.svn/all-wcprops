@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/heineken-sensation-microsite/!svn/ver/113/trunk/heineken/templates/application/admin/upload
+END
+upload_new.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/heineken-sensation-microsite/!svn/ver/113/trunk/heineken/templates/application/admin/upload/upload_new.html
+END
+upload_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/heineken-sensation-microsite/!svn/ver/105/trunk/heineken/templates/application/admin/upload/upload_list.html
+END
+upload_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/heineken-sensation-microsite/!svn/ver/105/trunk/heineken/templates/application/admin/upload/upload_edit.html
+END

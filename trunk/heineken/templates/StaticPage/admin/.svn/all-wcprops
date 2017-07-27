@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin
+END
+group_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/group_edit.html
+END
+list_by_group.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/list_by_group.html
+END
+edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/edit.html
+END
+group_new.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/group_new.html
+END
+group_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/group_list.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/index.html
+END
+manage.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/manage.html
+END
+new.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/new.html
+END
+list.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/StaticPage/admin/list.html
+END

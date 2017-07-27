@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/public_html/service
+END
+crossdomain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/public_html/service/crossdomain.xml
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/public_html/service/.htaccess
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/public_html/service/index.php
+END
+common.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/public_html/service/common.php
+END

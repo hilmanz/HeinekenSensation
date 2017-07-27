@@ -1,0 +1,147 @@
+<div id="popup-quiz" class="popup">
+    <div class="popupContainer">
+        <div class="popupHead">
+             <a class="logo2">&nbsp;</a>
+        </div><!-- end .popupHead -->
+        <div class="popupEntry">
+            <h1>LET US GET TO KNOW YOU </h1>
+            <p>Merasa diri lo orang paling tepat untuk diterbangkan ke Sensation Korea? <br />
+            Buktikan dulu. Ungkap karakter lo yang mungkin selama ini tersembunyi melalui tes ini.</p><br /><br />
+            <a class="greenBtn showPopupTrivia quizPopup" href="#triv_0">START </a>
+            <a class="greenBtn showPopupTrivia quizPopup" href="#popup-quiz2">NOT RIGHT NOW</a>
+        </div><!-- end .popupEntry -->
+    </div><!-- end .popupContainer -->
+</div><!-- end .popup -->
+<div id="popup-quiz2" class="popup">
+    <div class="popupContainer">
+        <div class="popupHead">
+             <a class="logo2">&nbsp;</a>
+        </div><!-- end .popupHead -->
+        <div class="popupEntry">
+            <h1>IT TAKES CHARACTER</h1>
+            <p>Yakin mau melewatkan tes ini? It's part of how we choose the right persons.</p><br /><br />
+            <a class="greenBtn showPopupTrivia quizPopup" href="#triv_0">LET'S DO IT</a>
+            <a class="greenBtn showPopupTrivia" href="javascript:$.fancybox.close();">I'LL DO IT LATTER</a>
+        </div><!-- end .popupEntry -->
+    </div><!-- end .popupContainer -->
+</div><!-- end .popup -->
+<form id="quizList">
+{assign var=list value=0}
+{section name=i loop=$trivia_list}
+    <div id="triv_{$list}" class="popup">
+        <div class="popupContainer">
+            <div class="popupHead">
+                 <a class="logo2">&nbsp;</a>
+            </div><!-- end .popupHead -->
+            <div class="popupEntry">
+                <div class="quizForms">
+                    <h3>{$trivia_list[i].question}</h3>
+                    {section name=j loop=$trivia_list[i].answer}
+                    
+                        {if $trivia_list[i].answer[j].media_type==1}
+                        <div class="col4">
+                            <div class="smallThumb"><img width="95" src="{$assets_domain}trivia_assets/{$trivia_list[i].answer[j].answer}" /></div>
+                            <span class="inputRadio"><input type="radio" class="styled" name="triv_{$list}" value="{$trivia_list[i].answer[j].id}" /></span>
+                        </div>
+                        {else}
+                        <div class="row">
+                            <input type="radio" class="styled" name="triv_{$list}" value="{$trivia_list[i].answer[j].id}" />
+                            <label>{$trivia_list[i].answer[j].answer}</label>
+                        </div>
+                        {/if}
+                    
+                    {/section}
+                    {assign var=list value=$list+1}
+                    <div class="row rowSubmit">
+                        <a href="#triv_{$list}" class="nextTrivia greenBtn showPopupTrivia">NEXT</a>
+                        <!--<input type="submit" value="SUBMIT" class="greenBtn" />-->
+                    </div><!-- end .row -->
+                </div>
+            </div><!-- end .popupEntry -->
+        </div><!-- end .popupContainer -->
+    </div><!-- end .popup -->
+    
+{/section}
+
+
+<div id="triv_{$total_trivia}" class="popupBig">
+    <div class="popupContainer">
+        <div class="popupHead">
+             <a class="logo2">&nbsp;</a>
+        </div><!-- end .popupHead -->
+        <div class="popupEntry">
+            <h2>MEET YOUR HIDDEN SELF:</h2>
+            <div id="triviaResult"></div>
+            {if $notSubmitTheForm == '0'}
+            <div class="quizForm">
+                <div class="row">
+                     <h3>NOW TELL US: KENAPA KITA HARUS PILIH LO? <span class="asterix" style="color:red"></span></h3>
+                    <textarea name="reasonToWin" placeholder="Tulis alasan kenapa lo adalah orang yang paling pantas untuk dipilih"></textarea>
+                </div><!-- end .row -->
+                <div class="row">
+                     <h3>AND TELL US A BIT MORE ABOUT WHAT MAKES YOU TICK:</h3>
+                     <div class="col3">
+                        <h4>APA INTEREST LO? <span class="asterix" style="color:red"></span></h4>
+                        <select class="styled" name="hobby">
+                            <option value='0'>CHOOSE YOUR INTEREST</option>
+                           {section name=i loop=$fav_list.interest}
+                            <option value="{$fav_list.interest[i].id}">{$fav_list.interest[i].fav_name}</option>
+                           {/section}
+                        </select>
+                     </div><!-- end .col3 -->
+                     <div class="col3">
+                        <h4>WEEKEND SERU MENURUT LO? <span class="asterix" style="color:red"></span></h4>
+                        <select class="styled" name="weekend">
+                            <option value='0'>CHOOSE YOUR WEEKEND ACTIVITY</option>
+                            {section name=i loop=$fav_list.weekend}
+                            <option value="{$fav_list.weekend[i].id}">{$fav_list.weekend[i].fav_name}</option>
+                           {/section}
+                        </select>
+                     </div><!-- end .col3 -->
+                     <div class="col3">
+                        <h4>APA MUSIK FAVORIT LO? <span class="asterix" style="color:red"></span></h4>
+                        <select class="styled" name="genre">
+                            <option value='0'>CHOOSE YOUR MUSIC GENRE</option>
+                             {section name=i loop=$fav_list.music}
+                            <option value="{$fav_list.music[i].id}">{$fav_list.music[i].fav_name}</option>
+                           {/section}     
+                        </select>
+                     </div><!-- end .col3 -->
+                </div><!-- end .row -->
+                <div class="row rowSubmit">
+                    <a id="submitTrivia" href="javascript:void(0);" class="greenBtn">SUBMIT</a>
+                    <!--<input type="submit" value="SUBMIT" class="greenBtn" />-->
+                </div><!-- end .row -->
+            </div>
+            {else}
+             <div class="row rowSubmit">
+                <a id="closeTrivia" href="javascript:void(0);" class="greenBtn">OK</a>
+                <!--<input type="submit" value="SUBMIT" class="greenBtn" />-->
+            </div><!-- end .row -->
+            {/if}
+
+        </div><!-- end .popupEntry -->
+    </div><!-- end .popupContainer -->
+</div><!-- end .popupBig -->
+
+
+<div id="popup-quiz4" class="popup">
+    <div class="popupContainer">
+        <div class="popupHead">
+             <a class="logo2">&nbsp;</a>
+        </div><!-- end .popupHead -->
+        <div id="finishTrivia"  class="popupEntry">
+            
+        </div><!-- end .popupEntry -->
+        <div class="row rowSubmit">
+            <a id="closeTrivia" href="javascript:void(0);" class="greenBtn">OK</a>
+            <!--<input type="submit" value="SUBMIT" class="greenBtn" />-->
+        </div><!-- end .row -->
+    </div><!-- end .popupContainer -->
+</div><!-- end .popupBig -->
+
+</form>
+<script type="text/javascript">
+    var list_length = '{$total_trivia}';
+    var notSubmitTheForm = '{$notSubmitTheForm}';
+</script>

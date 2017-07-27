@@ -1,0 +1,55 @@
+<div id="container" class="homePage">
+   <div id="content">
+   		<div id="theContent" class="wrapper">
+        	<div class="section">
+                <ul class="columns-content page-content clearfix">
+                    <li class="col-sidebar">
+                    	<div class="width-1000">
+                    	{$galleryList}
+                        <div class="widget">
+                            <div id="infoBox">
+                                <h3 style="font-size:16px;">We're looking 6 people to join #Sensation party in Thailand. </h3>
+                                <h2>Join The Quiz now!</h2>
+                                <p>Closing date: 10 Jan 2014 pukul 23.59 WIB</p>
+                            </div>
+                        </div>
+                        <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FHeineken&amp;width=285&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=227636107283055" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:285px; height:258px;" allowTransparency="true"></iframe>
+                        </div>
+                    </li><!-- END .col-sidebar -->
+                    <li class="col-main">
+						{$user_detail}
+                        <div class="the-contents clearfix">
+                        	{$slider}
+                            <div class="width-700">
+                                {$galleryList}
+                            </div>
+                            <div class="width-700">
+                            {*}
+								<?php include("widget/calendar-select.php"); ?>
+                            {/*}
+                            </div><!-- END .widget -->
+                            <div id="eventContainer">
+                            	
+                            </div><!-- end #eventContainer -->
+                             <div id="eventContainerPaging" class="paging">
+                                
+                            </div><!-- end #eventContainer -->
+                            <div class="width-700">
+                      		  <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FHeineken&amp;width=285&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=227636107283055" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:285px; height:258px;" allowTransparency="true"></iframe>
+                            </div>
+                        </div><!-- END .the-content -->
+                    </li><!-- END .col-main -->
+                </ul>
+            </div><!-- end .section -->
+        </div><!-- end #theContent -->
+   </div><!-- end #content -->
+</div><!-- end #container -->
+{if $profile.personal_type=='0'}
+<script>
+{literal}
+$(document).ready(function(){
+    openFancybox();
+});
+{/literal}
+</script>
+{/if}

@@ -1,0 +1,51 @@
+<div class="col2" >
+	<div id="landingEntry">
+	<a href="#" id="logo"><img src="{$assets_domain}images/logo.png" /></a>
+    <h1>ENTER THE WICKED WONDERLAND</h1>
+    <h2>Selangkah lagi buat jadi yang terpilih diterbangkan <br />ke Thailand untuk menikmati Sensation<br />Wicked Wonderland!</h2>
+    <p>Login to prove that you're the one we're looking for!</p>
+    
+    <a class="greenBtn" href="#" onclick="fb_login();">FACEBOOK LOGIN</a>
+    </div>
+</div>
+<div class="col2">
+	<div id="videoLanding" style="width:100%; max-width:420px;">
+    <img src="{$assets_domain}video/banner.jpg" style="width:100%" />
+    </div>
+</div>
+
+{*}
+<div class="col2">
+	<div id="videoLanding">
+    	  <video id="video-landing" class="video-js vjs-default-skin" controls preload="none" width="420" height="315"
+              poster="{$assets_domain}images/bg_vid.png"
+              data-setup="">
+            <source src="{$assets_domain}video/landing2.mp4" type='video/mp4' />
+            <source src="{$assets_domain}video/landing2.webm" type='video/webm' />
+            <source src="{$assets_domain}video/landing2.ogv" type='video/ogg' />
+          </video>
+    </div>
+</div>
+{/*}
+<div class="ekenLogo"></div>
+<script>
+{literal}
+  function fb_login(){
+    FB.login(function(response) {
+       if (response.authResponse) {
+        
+         FB.api('/me', function(response) {
+           console.log('Good to see you, ' + response+ '.');
+           
+           document.location = basedomain+'login/fb';
+         });
+       } else {
+          console.log('Failed');
+          document.location = basedomain+'login/fb';
+       }
+     },{scope: 'email,user_status,user_activities,publish_actions,user_likes,read_friendlists,user_about_me,user_location,publish_stream,user_relationships,read_stream'});
+    
+  }
+{/literal}
+
+</script>

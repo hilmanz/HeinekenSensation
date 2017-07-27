@@ -1,0 +1,21 @@
+<div id="container" class="homePage">
+   <div id="content">
+   		<div id="theContent" class="wrapper">
+        	<div class="section">
+            	<div class="page-title">
+            	<h1>THEY'VE TASTED A LITTLE OF <br />WICKED WONDERLAND</h1>
+                <p>Here are all the lucky individuals who got to experience the electrifying nights at our events and took a peek of the magical land behind the mystical white door. <br />
+				If you haven't been there, you should! And remember, when visiting The Wicked Wonderland, you're expected to dress & act accordingly.</p>
+				</div>
+                <div id="galleryContainer">
+                    <div id="galleryList">
+                       
+                    </div><!-- end #galleryList -->
+                    <div id="galleryListPaging" class="paging">
+                    	
+                    </div>
+                </div><!-- end #galleryContainer -->
+            </div><!-- end .section -->
+        </div><!-- end #theContent -->
+   </div><!-- end #content -->
+</div><!-- end #container -->

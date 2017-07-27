@@ -1,0 +1,28 @@
+<div id="container" class="homePage">
+   <div id="content">
+   		<div id="theContent" class="wrapper">
+        	<div class="section">
+                <div id="helpContainer">
+                    <div class="page-title">
+                    <h1>Download Report</h1>
+                    <h3>{$msg}</h3>
+                    </div>
+                	<form action="" method="POST">
+                    <select name="report_type">
+                        <option value="1">Datang tapi login</option>
+                        <option value="2">Datang tapi ga login (no interval)</option>
+                        <option value="3">Ga datang tapi login</option>
+                        <option value="4">Result of the quiz(complete)</option>
+                        <option value="5">Result of the quiz(not_complete)</option>
+                        <option value="6">FB Like (no interval)</option>
+                        <option value="7">Number_of_each_user_take_the_quiz (no interval)</option>
+                        <option value="8">WINNER (no interval)</option>
+                    </select>
+                    <input type="number" name="interval" value="1">
+                    <input type="submit" value="Download">
+                    </form>
+                </div><!-- end #contentContainer -->
+            </div><!-- end .section -->
+        </div><!-- end #theContent -->
+   </div><!-- end #content -->
+</div><!-- end #container -->

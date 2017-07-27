@@ -1,0 +1,87 @@
+$(document).ready(function() { 
+	// Drop Down Menu
+	$('ul#main-menu').superfish({ 
+        delay:       600,
+        animation:   {opacity:'show',height:'show'},
+        speed:       'fast',
+        autoArrows:  true,
+        dropShadows: false
+    });
+	// Mobile Menu
+	// Create the dropdown base
+	$("<select />").appendTo("#nav");
+      
+	// Create default option "Go to..."
+	$("<option />", {
+		"selected": "selected",
+		"value"   : "",
+		"text"    : "Go to..."
+	}).appendTo("#nav select");
+	
+      
+	// Populate dropdown with menu items
+	$("#main-menu a").each(function() {
+		var el = $(this);
+		$("<option />", {
+			"value"   : el.attr("href"),
+			"text"    : el.text()
+		}).appendTo("#nav select");
+	});
+	
+	// To make dropdown actually work
+	$("#nav select").change(function() {
+		window.location = $(this).find("option:selected").val();
+	});
+	
+	$(".fancybox").fancybox({ 
+           autoDimensions : false,
+		   width : 560,
+		   autoScale:true	
+	}); 
+	$('.showPopup').fancybox();
+	$(".closeMessage").click(function(){		
+		$(".topMessage").addClass("hide");
+	});
+	
+	
+/*	$(function () {
+		$("#dday").watermark("DD");
+		$("#dmonth").watermark("MM");
+		$("#dyear").watermark("YY");
+	});
+	*/
+});
+$(window).load(function(){
+  $('.flexslider').flexslider({
+	animation: "slide",
+	controlNav: false,
+	start: function(slider){
+	  $('body').removeClass('loading');
+	}
+  });
+});
+//scroll
+
+function handleChange(div,max){
+	if(max){
+		if ($(div).val() < 0) $(div).val(0);
+	    if ($(div).val() > max) $(div).val(max);
+	}
+}
+function isNumberKey(evt,type){
+    var charCode = (evt.which) ? evt.which : evt.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57)){
+        return false;
+    }else{
+    	if(type=='day'){
+    		var dd = parseInt($("input[name='dday']").val());
+    		if(dd<=31&&dd!=0) return true;
+    		else console.log('foo');
+    	}else if(type=='month'){
+    		var mm = parseInt($("input[name='dmonth']").val());
+    		if(mm<=12&&mm!=0) return true;
+    	}else{
+    		return true;
+    	}
+    }
+}  

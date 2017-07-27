@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service
+END
+apiModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service/apiModel.php
+END
+apiService.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service/apiService.php
+END
+apiUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service/apiUtils.php
+END
+apiBatch.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service/apiBatch.php
+END
+apiMediaFileUpload.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service/apiMediaFileUpload.php
+END
+apiServiceResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service/apiServiceResource.php
+END
+apiServiceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/service/apiServiceRequest.php
+END

@@ -1,0 +1,115 @@
+
+{literal}
+<script type="text/javascript">
+	//var id_cat = "{$id_cat}";
+	$(document).on('change','#article_type',function(){
+		var idtype = $("#article_type").val();
+		categorypost(idtype);
+	});
+	
+	function categorypost(idtype){
+		$.post('index.php?s=article&act=getCategory',{idtype:idtype},function(data){
+			if(data==0){
+				var html ="";
+				html += "	<option value=''>- Category -</option>";
+				$('#category_type').html(html);
+			} else {
+				var html ="";
+				html += "	<option value=''>- Category -</option>";
+				$.each(data,function(i,e){
+					html += "<option value='"+e.id+"'>"+e.category.toUpperCase()+"</option>";
+				});
+				$('#category_type').html(html);
+			}
+		},"JSON");
+
+		//$("#category_type").change(function(){
+			// var category_type = $("#category_type").val();
+			//$(".valcategory").attr("value",category_jenis);
+		//});
+	}
+</script>
+{/literal}
+<div class="theContent">
+    <div class="theTitle">
+        <h2>{$folder} List</h2>
+        <a href="index.php?s={$folder}&act=add" class="btn btn_pencil"><span>Add {$folder}</span></a>
+    </div><!--contenttitle-->
+    <div class="tableoptions">        
+    <form>
+        <input type="hidden" name="s" value="{$folder}" />
+        <input type="text" name="search" value="{$search}"/>
+		<span>Date Range</span>
+        <input type="text" name="startdate" value="{$startdate}" class="datepicker radius3" />
+		<span>s/d</span>
+        <input type="text" name="enddate" value="{$enddate}" class="datepicker radius3" />
+        <input type="submit" value="cari" class="stdbtn btn_orange" />
+    </form>
+    </div><!--tableoptions-->	
+    <table cellpadding="0" cellspacing="0" border="0" id="table1" class="stdtable">
+        <colgroup>
+            <col class="con0" style="width: 4%" />
+            <col class="con1" />
+            <col class="con0" />
+            <col class="con1" />
+            <col class="con0" />
+            <col class="con1" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th class="head0">No</th>
+                <th class="head0">Email</th>
+                <th class="head0">Nama Event</th>
+                <th class="head0">Nama File</th>
+				<th class="head1">Image</th>
+                <th class="head0">Created Date</th>
+                <th class="head0">Status</th>
+                <th class="head1">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {foreach from=$list key=k item=v}
+            <tr>
+                <td width="10">{$v.no}&nbsp;</td>
+                <td>{$v.email}</td>
+				<td>{$v.nama_event}</td>
+				<td>{$v.nama_file}</td>
+				{*}
+				<td align="center">
+					<a href="{$baseurl}public_assets/{$folder}/{$v.hash_filename}" target="_blank">
+					<img src="{$baseurl}public_assets/{$folder}/small_{$v.hash_filename}" height="100">
+					</a>
+				</td>
+				{/*}
+				<td align="center">
+					<a href="#image-{$v.id}" class="showPopup">
+						<img height="100" src="{$baseurl}public_assets/{$folder}/small_{$v.hash_filename}">
+					</a>
+					<div id="image-{$v.id}" style="padding: 30px; text-align: justify; display: none;">
+						<img src="{$baseurl}public_assets/{$folder}/{$v.hash_filename}" style="max-width:900px;">
+					</div>
+				</td>
+                <td align="center"><nobr>{$v.created_date}</nobr></td>
+				{*}<td align="center"><a href="index.php?s=gallery&contentid={$v.id}" class="orange" >See Gallery</a></td>{/*}
+                <td align="center">
+                    {if $v.n_status==0} <span class="orange">Unpublish</span>
+                    {elseif $v.n_status==1} <span class="green">Publish</span>
+                    {elseif $v.n_status==2} <span class="red">Inactive</span>
+                    {else}
+                    {/if}
+                </td>
+                <td align="center">
+                    <nobr>
+						<a href="index.php?s={$folder}&act=edit&id={$v.id}" class="green"> update </a>
+                            {*}|
+						<a href="index.php?s={$folder}&act=comment&id={$v.id}" class="orange"> comment <font color="red">{if $total_comment.$id} [{$total_comment.$id}] {else} {/if}</font> </a>
+							{/*}
+							| <a href="index.php?s={$folder}&act=hapus&id={$v.id}" class="red" onclick="return confirm('Are you sure you want to delete this?')">delete</a>
+                    </nobr>
+                </td>
+            </tr>
+			{/foreach}
+        </tbody>
+    </table>
+    <div class="paging">{$paging}</div>
+</div><!--theContent-->

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Admin
+END
+PluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Admin/PluginManager.php
+END
+UserManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Admin/UserManager.php
+END
+DashboardManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Admin/DashboardManager.php
+END
+Admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Admin/Admin.php
+END
+activityTracker.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Admin/activityTracker.php
+END

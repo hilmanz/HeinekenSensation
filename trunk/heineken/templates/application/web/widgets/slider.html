@@ -1,0 +1,30 @@
+<div id="bannerwrapper">
+    <div id="banner">
+    <div class="flexslider">
+            {if $slider}
+          <ul class="slides">
+              {section name=i loop=$slider}
+                <li>
+                  <img src="{$assets_domain}content/gallery/slider/{$slider[i].src}" />
+                  <div class="slidecaption">
+                    <div class="fl">
+                        <p>{$slider[i].date_photo} | Don't let the chance slip away, datang ke event selanjutnya</p>
+                        <h3>{$slider[i].event}</h3>
+                    </div>
+                    <div class="fr">
+                        <span class="fbBtn"><a data-log="shareFB_photo"  href="javascript:;" onclick="shareFB('{$slider[i].event}','','{$assets_domain}content/gallery/large/{$slider[i].src}','{$slider[i].date_photo}','Check out the wicked style I did when I took a peek into the wonderland! #HNKLiveAccess www.liveaccess.co');"><img src="{$assets_domain}images/facebook-share-button1.png"></a></span>
+                        <span class="twitBtn">
+
+                        <a href="https://twitter.com/share" class="twitter-share-button fr" data-url="http://www.liveaccess.co" data-via="" data-text="{$assets_domain}content/gallery/large/{$slider[i].src} Check out the wicked style I did when I took a peek into the wonderland! #HNKLiveAccess" data-lang="en" data-count="none">TWEET</a>
+                        </span>
+                    </div>
+                  </div><!-- END .slidecaption -->
+                </li>
+              {/section}
+          </ul>
+            {else}
+              <img src="{$assets_domain}images/default.png" />
+            {/if}
+        </div>
+    </div><!-- end #banner -->
+</div><!-- end #bannerwrapper -->

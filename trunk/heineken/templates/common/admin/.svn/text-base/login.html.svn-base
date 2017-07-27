@@ -1,0 +1,31 @@
+	<div class="loginpage">
+    <div class="loginbox">
+    	<div class="loginboxinner">
+             
+            {if $msg <> ""}
+                <div class="loginmsg">{$msg}</div>
+            {/if}
+            <form id="login" action="login.php" method="post">
+                <div class="username">
+                	<div class="usernameinner">
+						<input name="username" type="text" id="username" maxlength="20"/> 
+                    </div>
+                </div>
+                <div class="password">
+                	<div class="passwordinner">
+						<input name="password" type="password" id="password" maxlength="20" />
+                    </div>
+                </div>
+                <div id="chaptcha">
+                    <img src="captcha.php"/>                   
+					<div style="top: 0px; position: relative; height: 50px; float: right; width: 65%;">
+					<input type="text" class="chaptcha" name="captcha" style="border:0px;font-size:18px">
+					</div>
+                </div>
+			
+                <input name="f" type="hidden" id="f" value="1"/>
+				<input id="button" type="submit" name="Submit" value="LOGIN" />
+            </form>
+        </div><!--loginboxinner-->
+    </div><!--loginbox-->
+    </div>

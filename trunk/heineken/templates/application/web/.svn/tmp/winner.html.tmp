@@ -1,0 +1,43 @@
+<div id="container" class="homePage">
+   <div id="content">
+   		<div id="theContent" class="wrapper">
+        	<div class="section">
+                <div id="winnerContainer">
+                    <div class="page-title">
+                    <h1>Winner Heineken present Sensation</h1>
+					<h3>Here are the most wicked personalities that have been selected to experience Sensation Wicked Wonderland live with Heineken!</h3>
+                    </div>
+                    <div id="galleryList">
+                      <div class="imgBox">
+                        <div class="imgBox-entry">
+                            <a class="showPopup" rel="group" href="#winner3" title="PUTERI">
+                               <img src="{$assets_domain}content/winner/HalloweenatAlibi_s.jpg" />
+                            </a>
+                            <h3>PUTERI</h3>
+                            <div class="popupImg">
+                                <div id="winner3">
+                                <img src="{$assets_domain}content/winner/HalloweenatAlibi.jpg" />
+                                </div>
+                            </div>
+                        </div><!-- end .imgBox-entry -->
+                      </div><!-- end .imgBox -->
+                      <div class="imgBox">
+                        <div class="imgBox-entry">
+                            <a class="showPopup" rel="group" href="#winner2" title="CALVIN">
+                               <img src="{$assets_domain}content/winner/HEINEKEN-1_s.jpg" />
+                            </a>
+                            <h3>CALVIN</h3>
+                            <div class="popupImg">
+                                <div id="winner2">
+                                <img src="{$assets_domain}content/winner/HEINEKEN-1.jpg" />
+                                </div>
+                            </div>
+                        </div><!-- end .imgBox-entry -->
+                      </div><!-- end .imgBox -->
+                    </div><!-- end #galleryList -->
+                    <h2>Congratz to all of you! </h2>
+                </div><!-- end #contentContainer -->
+            </div><!-- end .section -->
+        </div><!-- end #theContent -->
+   </div><!-- end #content -->
+</div><!-- end #container -->

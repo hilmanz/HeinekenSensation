@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/LICENSE
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/VERSION
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/.gitignore
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/TODO
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/.travis.yml
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/CHANGELOG.md
+END
+FAQ.md
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/FAQ.md
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/phpunit.xml.dist
+END
+FAQ.PERFORMANCES.md
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/FAQ.PERFORMANCES.md
+END
+package.ini
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/package.ini
+END
+phpunit.xml.travisci
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/phpunit.xml.travisci
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/README.md
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/autoload.php
+END

@@ -1,0 +1,52 @@
+<div id="userBox">
+	<div class="userBox">
+        {if $profile.fb_id}
+        <a class="smallThumb fl"><img src="https://graph.facebook.com/{$profile.fb_id}/picture?width=120&height=120" alt="" /></a>
+        {else}
+            <a class="smallThumb fl"><img src="https://graph.facebook.com/{$user->id}/picture?width=120&height=120" alt="" /></a>
+        {/if}
+        <div class="user-info fl">
+            <h3>{$profile.first_name}{if $profile.middle_name} {$profile.middle_name}{/if} {$profile.last_name}</h3>
+            <div id="emailBox">
+            {if $profile.active_email}
+                <p class="email">{$profile.active_email}</p><a href="#" class="clickable iconEdit" data-change="email">&nbsp;</a>
+            {else}
+                <p class="email">{$profile.email}</p><a href="#" class="clickable iconEdit" data-change="email">&nbsp;</a>
+            {/if}
+            </div>
+            <div id="phoneBox">
+            {if $profile.phone}
+                <p class="phone" data-change="phone">0{$profile.phone}</p><a href="#" class="clickable iconEdit" data-change="phone">&nbsp;</a>
+            {else}
+                <input type="text" name="phone_number" data-value="Input your phone number" id="phone_number" placeholder="Input your phone number">
+            {/if}
+            </div>
+            <div id="personalityBox" class="w-web">
+            {if $profile.personal_type}
+                <h2>{$profile.personal_type}</h2>
+            {else}
+                <a class="showPopupTrivia greenBtn quizPopup" id="PleaseCompleteQuiz" href="{if $notSubmitTheForm == 0}#popup-quiz{else}#triv_0{/if}">Please complete the QUIZ</a>
+            {/if}
+            </div>
+        </div><!-- END .user-info -->
+    </div><!-- END .userBox -->
+    <div id="personalityBox" class="w-mob">
+    {if $profile.personal_type}
+        <h2>{$profile.personal_type}</h2>
+    {else}
+        <a class="showPopupTrivia greenBtn quizPopup" id="PleaseCompleteQuiz" href="{if $notSubmitTheForm == 0}#popup-quiz{else}#triv_0{/if}">Please complete the QUIZ</a>
+    {/if}
+    </div>
+    {if $profile.personal_type}
+   		 {if $notSubmitTheForm==0}
+         <a class="greenBtn fr showPopupTrivia quizPopup redBtn" href="#triv_0">COMPLETE THE FORM</a>
+         {else}
+         <a class="greenBtn fr showPopupTrivia quizPopup" href="#triv_0">RETAKE THE QUIZ</a>
+         {/if}
+    <span class="fbshare"><a href="#" data-log="shareFB_personality" onclick="shareFB('{$profile.first_name} is a {$profile.personal_type}','','{$assets_domain}content/default/128.jpg','I just revealed my wicked character and took one step closer to winning the trip to Sensation Wicked Wonderland in Thailand!','Are you wicked enough to reveal your hidden self?');"><img src="{$assets_domain}images/facebook-share-button1.png"></a></span>
+	<span class="twitshare">
+
+    <a href="https://twitter.com/share" data-log="shareTW_personality" class="twitter-share-button" data-url="http://www.liveaccess.co" data-text="I'm the {$profile.personal_type} & I'm ready to be selected by Heineken to fly to Thailand for #HNKLiveAccess!" data-lang="en" data-count="none">TWEET</a>
+    </span>                        
+    {/if}
+</div><!-- END #userBox -->

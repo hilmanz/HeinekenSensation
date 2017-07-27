@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/lib/Predis/Pipeline
+END
+PipelineContext.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/lib/Predis/Pipeline/PipelineContext.php
+END
+IPipelineExecutor.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/lib/Predis/Pipeline/IPipelineExecutor.php
+END
+SafeExecutor.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/lib/Predis/Pipeline/SafeExecutor.php
+END
+FireAndForgetExecutor.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/lib/Predis/Pipeline/FireAndForgetExecutor.php
+END
+SafeClusterExecutor.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/lib/Predis/Pipeline/SafeClusterExecutor.php
+END
+StandardExecutor.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/lib/Predis/Pipeline/StandardExecutor.php
+END

@@ -1,0 +1,76 @@
+<div id="container" class="homePage">
+   <div id="content">
+   		<div id="theContent" class="wrapper">
+        	<div class="section">
+                <div id="helpContainer">
+                    <div class="page-title" style="overflow:hidden;">
+                    <h1 class="fl">HOW TO BE SELECTED</h1>
+                    </div>
+                    <div style="clear:both;">
+                	<div class="helpIcon2">
+                    </div><!-- end .helpIcon -->
+                	<div class="boxLeft">
+                    	<div class="helpBox helpBox1">
+                        	<div class="iconHelp"><img src="{$assets_domain}images/help1.png" /></div>
+							<p><span class="green">Datang ke events!</span><br />(mungkin itu adalah alasan lo berada di sini; buat yang belum pernah, do come and you'll see why you should!)</p>
+                        </div><!-- end .helpBox -->
+                    	<div class="helpBox helpBox4">
+                        	<div class="iconHelp"><img src="{$assets_domain}images/help2.png" /></div>
+							<p><span class="green">Keep spreading the words</span><br /> Keep spreading the words and keep your fingers crossed!</p>
+                        </div><!-- end .helpBox -->
+                    	<div class="helpBox helpBox2">
+                        	<div class="iconHelp"><img src="{$assets_domain}images/help3.png" /></div>
+							<p><span class="green">Take the personality quiz to reveal your hidden self</span> (well, lo nggak pernah tau mungkin saja loe menemukan karakter lo yang sebenarnya)</p>
+                        </div><!-- end .helpBox -->
+                    	<div class="helpBox helpBox5">
+                        	<div class="iconHelp"><img src="{$assets_domain}images/help4.png" /></div>
+							<p><span class="green">Complete your profile</span><br /> (don't worry, your profile is only visible by you; and us, of course)</p>
+                        </div><!-- end .helpBox -->
+                    	<div class="helpBox helpBox3">
+                        	<div class="iconHelp"><img src="{$assets_domain}images/help5.png" /></div>
+							<p><span class="green">Valid paperworks are mandatory </span><br />
+                            	Pastikan lo juga memiliki dokumen-dokumen berikut yang sah:
+                                <ul>
+                                    <li>Paspor yang masih berlaku</li>
+                                    <li>Fotokopi buku rekening 3 bulan terakhir</li>
+                                    <li>Fotokopi Kartu Keluarga</li>
+                                    <li>Fotocop KTP (Kartu Tanda Penduduk)</li>
+                                </ul>
+                            </p>
+                        </div><!-- end .helpBox -->
+                    	<div class="helpBox helpBox6">
+                        	<div class="iconHelp"><img src="{$assets_domain}images/help6.png" /></div>
+							<p><span class="green">Do it all before the period ends  </span><br />
+                                <ul>
+                                    <li>Batas waktu berpartisipasi adalah sampai tanggal 10 Januari 2014, pukul 23.59 WIB.</li>
+                                    <li>Jadwal interview kandidat pemenang adalah 14 Januari 2014</li>
+                                    <li>Pengumuman pemenang akan dilakukan pada tanggal 15 Januari 2014</li>
+                                </ul>
+                            </p>
+                        </div><!-- end .helpBox -->
+                    </div><!-- end .boxLeft -->
+                	<div class="helpIcon">
+                    </div><!-- end .helpIcon -->
+                	<div class="boxRight">
+                    	<div class="helpBox helpBox4">
+							<p><span class="green">Keep spreading the words</span><br /> Keep spreading the words and keep your fingers crossed!</p>
+                        </div><!-- end .helpBox -->
+                    	<div class="helpBox helpBox5">
+							<p><span class="green">Complete your profile</span><br /> (don't worry, your profile is only visible by you; and us, of course)</p>
+                        </div><!-- end .helpBox -->
+                    	<div class="helpBox helpBox6">
+							<p><span class="green">Do it all before the period ends  </span><br />
+                                <ul>
+                                    <li>Batas waktu berpartisipasi adalah sampai tanggal 10 Januari 2014, pukul 23.59 WIB.</li>
+                                    <li>Jadwal interview kandidat pemenang adalah 14 Januari 2014</li>
+                                    <li>Pengumuman pemenang akan dilakukan pada tanggal 15 Januari 2014</li>
+                                </ul>
+                            </p>
+                        </div><!-- end .helpBox -->
+                    </div><!-- end .boxRight -->
+                    </div>
+                </div><!-- end #contentContainer -->
+            </div><!-- end .section -->
+        </div><!-- end #theContent -->
+   </div><!-- end #content -->
+</div><!-- end #container -->

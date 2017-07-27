@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/heineken-sensation-microsite/!svn/ver/120/trunk/heineken/templates/common/admin
+END
+dashboard_config.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/dashboard_config.html
+END
+user_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/user_edit.html
+END
+message.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/message.html
+END
+exportTo.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/exportTo.html
+END
+default.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/heineken-sensation-microsite/!svn/ver/118/trunk/heineken/templates/common/admin/default.html
+END
+user_manage.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/user_manage.html
+END
+dashboard.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/dashboard.html
+END
+user_new.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/user_new.html
+END
+permission.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/permission.html
+END
+admin.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/117/trunk/heineken/templates/common/admin/admin.html
+END
+dialog.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/dialog.html
+END
+login.dummy.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/login.dummy.html
+END
+broadcast.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/broadcast.html
+END
+paging.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/paging.html
+END
+config.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/config.html
+END
+dashboard_panel.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/dashboard_panel.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/120/trunk/heineken/templates/common/admin/login.html
+END
+edit_config.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/templates/common/admin/edit_config.html
+END

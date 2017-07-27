@@ -1,0 +1,79 @@
+<div class="theContent">
+    <div class="theTitle">
+        <h2>{$folder} List</h2>
+        <a href="index.php?s={$folder}&act=getUsersReport&search={$search}&startdate={$startdate}&enddate={$enddate}" class="btn btn_document"><span>Download XLS</span></a>
+    </div><!--contenttitle-->
+    <div class="tableoptions">
+		<form>
+			<input type="text" name="search" value="{$search}">
+			<input type="hidden" name="s" value="{$folder}" />
+			<input type="hidden" name="cari" value="cari" /> 
+		   <span>&nbsp;Date Range&nbsp;</span>
+			<input type="text" name="startdate" value="{$startdate}" class="datepicker radius3" />
+		   <span>&nbsp;s/d&nbsp;</span>
+			<input type="text" name="enddate" value="{$enddate}" class="datepicker radius3" />
+			<input type="submit" value="cari" class="stdbtn btn_orange" />
+		</form>
+    </div><!--tableoptions-->	
+    <table cellpadding="0" cellspacing="0" border="0" id="table1" class="stdtable">
+        <colgroup>
+            <col class="con0" style="width: 4%" />
+            <col class="con1" />
+            <col class="con0" />
+            <col class="con1" />
+            <col class="con0" />
+            <col class="con1" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th class="head0">No</th>
+                <th class="head0">Image</th>
+                <th class="head0">Nama Lengkap</th>
+                <th class="head1">Email</th>
+                <th class="head1">No Telphone</th>
+                <th class="head1">Nama Event</th>
+                <th class="head1">Created Date</th>
+				{*}
+                <th class="head0">Status</th>
+                <th class="head1">Action</th>
+				{/*}
+            </tr>
+        </thead>
+        <tbody>
+            {section name=i loop=$list}
+            <tr>
+                <td width="10">{$list[i].no}&nbsp;</td>
+				<td align="center">
+					<a href="#image-{$list[i].no}" class="showPopup">
+						<img height="100" src="{$baseurl}assets/content/gallery/medium/{$list[i].hash_filename}">
+					</a>
+					<div id="image-{$list[i].no}" style="padding: 30px; text-align: justify; display: none;">
+						<img src="{$baseurl}assets/content/gallery/large/{$list[i].hash_filename}" style="max-width:900px;">
+					</div>
+				</td>
+                <td>{$list[i].nama_lengkap}</td>
+                <td>{$list[i].email}</td>
+				 <td>{$list[i].phonenumber}</td>
+                <td>{$list[i].nama_event}</td>
+                <td><nobr>{$list[i].created_date}</nobr></td>
+				{*}
+                <td align="center">
+                    {if $list[i].n_status==0} <span class="orange">Unpublish</span>
+                    {elseif $list[i].n_status==1} <span class="green">Publish</span>
+                    {elseif $list[i].n_status==2} <span class="red">Inactive</span>
+                    {else}
+                    {/if}
+                </td>
+                <td align="center">
+                    <nobr>					
+                        <a href="index.php?s={$folder}&act=edit&id={$list[i].id}" class="green">Edit</a>                      
+                        | <a href="index.php?s={$folder}&act=hapus&id={$list[i].id}" class="red" onclick="return confirm('Are you sure you want to delete this?')">Delete</a>                      
+                    </nobr>
+                </td>
+				{/*}
+            </tr>
+            {/section}
+        </tbody>
+    </table>
+    <div class="paging">{$paging}</div>
+</div><!--theContent-->

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Network
+END
+StreamConnectionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Network/StreamConnectionTest.php
+END
+WebdisConnectionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Network/WebdisConnectionTest.php
+END
+ConnectionExceptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Network/ConnectionExceptionTest.php
+END
+MasterSlaveReplicationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Network/MasterSlaveReplicationTest.php
+END
+PhpiredisConnectionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Network/PhpiredisConnectionTest.php
+END
+PredisClusterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Network/PredisClusterTest.php
+END

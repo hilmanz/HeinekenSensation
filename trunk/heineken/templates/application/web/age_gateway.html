@@ -1,0 +1,26 @@
+<div class="col2">
+	<div id="landingEntry">
+        <a href="index.php" id="logo"><img src="{$assets_domain}images/logo.png" /></a>
+        <h1>REBUT KESEMPATAN<br />
+			DITERBANGKAN KE THAILAND</h1>
+        <h3 style="font-size:20px; margin:30px 0 0 0;">YOUR DATE OF BIRTH</h3>
+        {if $msg}
+        <h4 style="color:red;">{$msg}</h4>
+        {/if}
+        <form class="inputBirth" method="post" action="{$basedomain}login/age_check">
+        	<input type="text" name="dday" onBlur="if(this.value=='')this.value='DD';" onFocus="if(this.value=='DD')this.value='';" value="DD"  onchange="handleChange(this,31);" onkeypress="return isNumberKey(event)" maxlength="2" />
+        	<input type="text" name="dmonth" onBlur="if(this.value=='')this.value='MM';" onFocus="if(this.value=='MM')this.value='';" value="MM" onchange="handleChange(this,12);" onkeypress="return isNumberKey(event)" maxlength="2"  />
+            <input type="text" name="dyear" onBlur="if(this.value=='')this.value='YY';" onFocus="if(this.value=='YY')this.value='';" value="YY" onchange="handleChange(this);" onkeypress="return isNumberKey(event)" maxlength="2"  />
+        	<input type="hidden" name="age_check" value="1" />
+            <p>By submitting this form, you agree to the terms and conditions found <a href="{$basedomain}login/tou_quiz" target="_blank">here</a></p>
+            <div class="row">
+           	 <input type="submit" value="ENTER" class="greenBtn" />
+            </div>
+        </form>
+    </div>
+</div>
+<div class="col2">
+	<div id="videoLanding">
+    </div>
+</div>
+<div class="ekenLogo"></div>

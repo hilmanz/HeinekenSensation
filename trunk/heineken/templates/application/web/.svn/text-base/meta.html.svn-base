@@ -1,0 +1,63 @@
+<!--Meta Tags-->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index,all"/>
+<meta name="revisit-after" content="3 Days"/>
+<meta property="og:type" content="website">
+<link type="text/css" href="{$assets_domain}css/superfish.css" rel="stylesheet" />
+<link type="text/css" href="{$assets_domain}fonts/roboto.css" rel="stylesheet" />
+<link type="text/css" href="{$assets_domain}css/video.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="{$assets_domain}js/fancybox/jquery.fancybox.css" media="screen" />
+<link rel="stylesheet" href="{$assets_domain}css/flexslider.css" type="text/css" media="screen" />
+<link type="text/css" href="{$assets_domain}css/heineken.css" rel="stylesheet" />
+<link type="text/css" href="{$assets_domain}css/responsive.css" rel="stylesheet" />
+<!-- Add jQuery library -->
+<script type="text/javascript" src="{$assets_domain}js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="{$assets_domain}js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="{$assets_domain}js/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="{$assets_domain}js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="{$assets_domain}js/jquery.watermark.js"></script>
+<!-- JS PLUGIN -->
+<script src="{$assets_domain}js/customform.js"></script>
+<script src="{$assets_domain}js/video.js"></script>
+<script>
+_V_.options.flash.swf = "{$assets_domain}js/video-js.swf";
+</script>
+<script src="{$assets_domain}js/superfish.js"></script>
+<script type="text/javascript" src="{$assets_domain}js/jquery.validate.js"></script>
+<script type="text/javascript" src="{$assets_domain}js/jquery.effects.core.js"></script>
+<script type="text/javascript" src="{$assets_domain}js/jquery.effects.shake.js"></script>
+
+<!-- Modernizr -->
+<script src="{$assets_domain}js/modernizr.js"></script>
+<script type="text/javascript">
+    var basedomain = '{$basedomain}';
+    var assets_domain = '{$assets_domain}';
+</script>
+<script src="{$assets_domain}js/heineken.js"></script>
+<script src="{$assets_domain}js/kipagination.js"></script>
+
+{if $pages != 'login' && $pages != 'age_check'}
+<script src="{$assets_domain}js/modules/global.js"></script>
+{/if}
+{if $pages == 'gallery'}
+    <script src="{$assets_domain}js/modules/gallery.js"></script>
+{/if}
+{if $pages == 'home' || $pages==''}
+    <script src="{$assets_domain}js/modules/home.js"></script>
+{/if}
+<title>HEINEKEN</title>
+<!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="js/selectivizr-min.js"></script>
+<![endif]-->
+{literal}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-867847-52', 'liveaccess.co');
+  ga('send', 'pageview');
+</script>
+{/literal}

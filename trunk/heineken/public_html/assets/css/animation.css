@@ -1,0 +1,289 @@
+/*
+ANIMATION by ACIT JAZZ - 2012
+*/
+
+@-webkit-keyframes resize {
+from { -webkit-transform:  scale(0.10); }
+to { -webkit-transform:  scale(0.791); }
+}
+@-moz-keyframes resize {
+from { -moz-transform: scale(0.1) ; }
+to { -moz-transform:  scale(1); }
+}
+@-o-keyframes resize {
+from { -o-transform:  scale(0.14); }
+to { -o-transform: scale(0.791); }
+}
+
+
+@-webkit-keyframes muter {
+	body{
+		overflow:hidden;
+	}
+from { -webkit-transform: rotate(180deg) scale(0); }
+to {   -webkit-transform: rotate(0deg) scale(1) ; }
+}
+@-moz-keyframes muter {
+from { -moz-transform: rotate(180deg) scale(0) ;
+	}
+to { -moz-transform: rotate(0deg) scale(1); }
+}
+@-o-keyframes muter {
+from { -o-transform: rotate(180deg) scale(0); }
+to { -o-transform: rotate(0deg) scale(1); }
+}
+
+
+@-webkit-keyframes h2 {
+from { -webkit-transform:  scale(0.10); }
+to { -webkit-transform:  scale(0.791); }
+}
+@-moz-keyframes h2 {
+from { -moz-transform: scale(0.1) ; }
+to { -moz-transform:  scale(1); }
+}
+@-o-keyframes h2 {
+from { -o-transform:  scale(0.14); }
+to { -o-transform: scale(0.791); }
+}
+
+
+@-webkit-keyframes muter {
+from { -webkit-transform: rotate(-360deg) scale(0); }
+to { -webkit-transform: rotate(0deg) scale(1) ; }
+}
+@-moz-keyframes muter {
+from { -moz-transform: rotate(-360deg) scale(0) ;
+	}
+to { -moz-transform: rotate(0deg) scale(1); }
+}
+@-o-keyframes muter {
+from { -o-transform: rotate(-360deg) scale(0); }
+to { -o-transform: rotate(0deg) scale(1); }
+}
+
+
+
+@-webkit-keyframes fromTop {
+from {opacity:0 ;
+	top:-50%;
+	}
+to { opacity:1; top:50%; }
+}
+@-moz-keyframes fromTop {
+from {opacity:0 ;
+	top:-50%;
+	}
+to { opacity:1; top:50%; }
+}
+@-o-keyframes fromTop {
+from {opacity:0 ;
+	top:-50%;
+	}
+to { opacity:1; top:50%; }
+}
+
+
+@-webkit-keyframes smallBig {
+from { -webkit-transform: scale(3); }
+to { -webkit-transform:  scale(1) ; }
+}
+@-moz-keyframes smallBig {
+from { -moz-transform: scale(10) ;
+	}
+to { -moz-transform: scale(1); }
+}
+@-o-keyframes smallBig {
+from { -o-transform:  scale(3); }
+to { -o-transform: scale(1); }
+}
+
+
+@-webkit-keyframes opacityEfx {
+from { opacity:0; }
+to { opacity:1 ; }
+}
+@-moz-keyframes opacityEfx {
+from { opacity:0; }
+to { opacity:1 ; }
+}
+@-o-keyframes opacityEfx {
+from { opacity:0; }
+to { opacity:1 ; }
+}
+
+
+.anim1 {
+	-webkit-animation: muter 2s 1 ease;
+	-moz-animation: muter 2s 1 ease;
+	-o-animation: muter 2s 1 ease;
+}
+
+.anim2 {
+	-webkit-animation:resize 1s 1 ease-in-out;
+	-moz-animation: resize 1s 1 ease-in-out;
+	-o-animation: resize 1s 1 ease-in-out;
+}
+
+.anim3 {
+	-webkit-animation: h2 1.5s 1 ease-in-out;
+	-moz-animation: h2 1.5s 1 ease-in-out;
+	-o-animation: h2 1.5s 1 ease-in-out;
+}
+.anim4 {
+	-webkit-animation: muter 1.8s 1 ease;
+	-moz-animation: muter 1.8s 1 ease;
+	-o-animation: muter 1.8s 1 ease;
+}
+.anim5 {
+	-webkit-animation:1s fromTop 1.8s 1 ease;
+	-moz-animation:1s fromTop 1.8s 1 ease;
+	-o-animation:1s fromTop 1.8s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	top:-80%;
+}
+.anim6 {
+	-webkit-animation: smallBig 1s 1 ease;
+	-moz-animation: smallBig 1s 1 ease;
+	-o-animation: smallBig 1s 1 ease;
+}
+.anim7 {
+	-webkit-animation:opacityEfx 2s 1 ease;
+	-moz-animation:1s opacityEfx 2s 1 ease;
+	-o-animation:1s opacityEfx 2s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	opacity:0;
+}
+.anim8 {
+	-webkit-animation: smallBig 1.5s 1 ease;
+	-moz-animation: smallBig 1.5s 1 ease;
+	-o-animation: smallBig 1.5s 1 ease;
+}
+.anim9 {
+	-webkit-animation: muter 1.5s 1 ease;
+	-moz-animation: muter 2.5s 1 ease;
+	-o-animation: muter 2.5s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+}
+.anim10 {
+	-webkit-animation: smallBig 0.5s 1 ease;
+	-moz-animation: smallBig 0.5s 1 ease;
+	-o-animation: smallBig 0.5s 1 ease;
+}
+
+#tapak {
+	-webkit-animation: opacityEfx 1s 1 ease;
+	-moz-animation:1s opacityEfx 1s 1 ease;
+	-o-animation:1s opacityEfx 1s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	opacity:0;
+}
+
+.people1 {
+	-webkit-animation: fromTop 1.8s 1 ease;
+	-moz-animation:1s fromTop 1.8s 1 ease;
+	-o-animation:1s fromTop 1.8s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	top:-80%;
+}
+.people1a {
+	-webkit-animation: fromTop 2.2s 1 ease;
+	-moz-animation:1s fromTop 2.2s 1 ease;
+	-o-animation:1s fromTop 2.2s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	top:-80%;
+}
+.people2 {
+	-webkit-animation: fromTop 2.8s 1 ease;
+	-moz-animation:1s fromTop 2.8s 1 ease;
+	-o-animation:1s fromTop 2.8s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	top:-80%;
+}
+.people3 {
+	-webkit-animation: fromTop 3.2s 1 ease;
+	-moz-animation:1s fromTop 3.2s 1 ease;
+	-o-animation:1s fromTop 3.2s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	top:-80%;
+}
+.people4 {
+	-webkit-animation: fromTop 3.8s 1 ease;
+	-moz-animation:1s fromTop 3.8s 1 ease;
+	-o-animation:1s fromTop 3.8s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	top:-80%;
+}
+.box{
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.postCase .entry-post:hover .box:hover{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	-moz-box-shadow:0 3px 3px #ccc;
+	-webkit-box-shadow:0 3px 3px #ccc;
+	box-shadow:0 3px 3px #ccc;
+}
+.postCase .entry-post:hover .box{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+	-moz-box-shadow:0 10px 10px #d2d5d3;
+	-webkit-box-shadow:0 10px 10px #d2d5d3;
+	box-shadow:0 10px 10px #d2d5d3;
+}
+.anim11 {
+	-webkit-animation: opacityEfx 3s 1 ease;
+	-moz-animation: opacityEfx 3s 1 ease;
+	-o-animation: opacityEfx 3s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	opacity:0;
+}
+.anim12{
+	-webkit-animation: muter 3s 1 ease;
+	-moz-animation: muter 3s 1 ease;
+	-o-animation: muter 3s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+}
+.anim13{
+	-webkit-animation:3s muter 2s 1 ease;
+	-moz-animation:3s muter 2s 1 ease;
+	-o-animation:3s muter 2s 1 ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	-o-transform: scale(0);
+}

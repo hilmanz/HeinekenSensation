@@ -1,0 +1,15 @@
+{literal}
+<style>
+.loaders{
+	text-align:center;
+	padding:30px;
+	width:90%;
+	border-radius:10px;
+	margin:100px auto;
+}
+</style>
+{/literal}
+<div class="loaders">
+    <div class="loadmessage" style="color:#fff;">{$msg}</div><br />
+    <img src="{$basedomain}assets/images/loader.gif">
+</div>

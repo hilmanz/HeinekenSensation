@@ -1,0 +1,23 @@
+<div id="header">
+    <div class="wrapper">
+        <a class="logo" href="index.php">&nbsp;</a>
+    </div><!-- end .wrapper -->
+    <div class="wrapper">
+        <div id="navigation">
+            <div id="nav">
+                <ul class="sf-js-enabled" id="main-menu">
+                  <li class=""><a {if $pages eq 'home' OR $pages eq ''}class="current"{/if} href="{$basedomain}home">HOME</a></li>
+                  <li class=""><a href="{if $profile.personal_type}#triv_0{else}#popup-quiz{/if}" class="showPopupTrivia quizPopup">QUIZ</a></li>
+                  <li class=""><a {if $pages eq 'howto'}class="current"{/if} href="{$basedomain}howto">HOW TO BE SELECTED</a></li>
+                  <li class=""><a {if $pages eq 'gallery'}class="current"{/if} href="{$basedomain}gallery">GALLERY</a></li>
+                  <li class=""><a {if $pages eq 'winner'}class="current"{/if} href="{$basedomain}winner">WINNERS</a></li>
+                  {if $profile.isAdmin == '1'}
+                  <li class=""><a {if $pages eq 'galleryUpload'}class="current"{/if} href="{$basedomain}galleryUpload">UPLOAD GALLERY</a></li>
+                  <li class=""><a {if $pages eq 'reports'}class="current"{/if} href="{$basedomain}reports">REPORTS</a></li>
+                  {/if}
+                  <li class=""><a href="{$logoutUrl}">LOGOUT</a></li>
+                </ul>  
+            </div>
+        </div>
+    </div><!-- end .wrapper -->
+</div><!-- end #header -->

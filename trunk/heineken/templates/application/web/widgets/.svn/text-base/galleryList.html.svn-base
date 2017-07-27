@@ -1,0 +1,29 @@
+<div class="widget widgetGallery">
+    <div class="boxTitle">
+        <h3>GALLERY</h3>
+    </div><!-- END .boxTitle -->
+    <div class="widgetContainer">
+        {section name=i loop=$gallery}
+        <a id="gallery-{$gallery[i].id}" class="showPopup" rel="group" href="#gal-{$gallery[i].id}" title="{$gallery[i].event}">
+            <img width="95" src="{$assets_domain}content/gallery/thumb/{$gallery[i].src}" alt="" />
+        </a>
+        <div class="popupImg">
+        	<div id="gal-{$gallery[i].id}">
+        	<img src="{$assets_domain}content/gallery/large/{$gallery[i].src}" />
+            </div>
+        </div>
+        {/section}
+        <div style="display:none;">
+        <!-- {section name=i loop=$galleryNext}
+            <a id="gallery-{$galleryNext[i].id}" class="showPopup" rel="group" href="#gal-{$galleryNext[i].id}" title="{$galleryNext[i].event}">
+            <img src="{$assets_domain}content/gallery/thumb/{$galleryNext[i].src}" alt="" />
+            </a>
+            <div class="popupImg">
+                <div id="gal-{$galleryNext[i].id}">
+                <img src="{$assets_domain}content/gallery/large/{$galleryNext[i].src}" />
+                </div>
+            </div>
+        {/section} -->
+        </div>
+    </div><!-- END .widgetContainer -->
+</div><!-- END .widget -->

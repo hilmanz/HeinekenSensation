@@ -1,0 +1,61 @@
+<script type="text/javascript" src="jscripts/tiny_mce/tiny_mce.js"></script>
+
+{literal}
+<script type="text/javascript">
+	function validator(){
+		tinyMCE.triggerSave();
+		if( $('#image').val() == '' ){
+			alert("Please fill image");
+			return false;
+		}
+	}
+</script>
+{/literal}
+<div class="theContent" style="padding-left: 30%;">
+    {if $msg}<div class="notibar msgalert"><p>{$msg}</p></div>{/if}
+    <div class="theTitle">
+        <h2>Your's Images </h2>
+    </div><!--contenttitle-->
+    <table cellpadding="0" cellspacing="0" border="0" id="table1" class="addPhotos">
+        <tbody>
+        <form name="cal" method="post" action="" enctype="multipart/form-data" onsubmit="javascript: return validator();">
+			{*}
+            <tr class="head">
+                <td style="width:100px;"><strong>Nama Event</strong></td>
+                <td colspan="2"><input type="text" id="nama_event" name="nama_event" style="width:500px;" value="{$nama_event}"/></td>
+            </tr>
+            <tr class="head">
+                <td ><strong>Email</strong></td>
+                <td colspan="2"><input type="text" name="email" id="email" style="width:500px;" value="{$email}" /></td>
+            </tr>
+            <tr class="head">
+                <td ><strong>Nama Image</strong></td>
+                <td colspan="2"><input type="text" name="nama_file" id="nama_file" style="width:500px;" value="{$nama_file}" /></td>
+            </tr>
+			{/*}
+            <tr class="head">
+                <td style="width:100px; border:1px solid #FFF;"><strong>Images</strong></td>
+                <td style="width:500px">
+                    <p><input type="file" name="image" id="image"/> <em><br />( Tanggal#Event#Email ) <br />(JPG, GIF, BMP and PNG)</em></p>	
+                </td>
+            </tr>
+			{*}
+            <tr class="head">
+                <td><strong>Status</strong></td>
+                <td colspan="2">
+                    <select name="n_status" style="width:200px;">
+                        <option value="0" {if $n_status==0} selected="selected" {/if}>Unpublish</option>
+                        <option value="1" {if $n_status==1} selected="selected" {/if}>Publish</option>
+                        <option value="2" {if $n_status==2} selected="selected" {/if}>Inactive</option>
+                    </select>
+                </td>
+            </tr>
+			{/*}
+            <tr>
+				<input type="hidden" name="simpan" value="1" />
+			    <td colspan="3" style="padding-left: 17%;" ><input type="submit" value=" Save " class="stdbtn btn_orange">&nbsp;&nbsp; <input type="button" class="stdbtn btn_yellow" value="Cancel" onclick="javascript: window.location.href='index.php?s=upload&act=add';" /></td>
+            </tr>
+        </form>
+        </tbody>
+    </table>
+</div><!--theContent-->

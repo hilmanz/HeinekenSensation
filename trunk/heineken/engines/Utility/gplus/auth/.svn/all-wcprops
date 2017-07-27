@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth
+END
+apiOAuth.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiOAuth.php
+END
+apiAuth.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiAuth.php
+END
+apiAuthNone.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiAuthNone.php
+END
+apiOAuth2.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiOAuth2.php
+END
+apiSigner.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiSigner.php
+END
+apiP12Signer.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiP12Signer.php
+END
+apiVerifier.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiVerifier.php
+END
+apiLoginTicket.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiLoginTicket.php
+END
+apiPemVerifier.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/gplus/auth/apiPemVerifier.php
+END

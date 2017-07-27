@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options
+END
+ClientOptionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options/ClientOptionsTest.php
+END
+ClientPrefixTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options/ClientPrefixTest.php
+END
+ClientProfileTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options/ClientProfileTest.php
+END
+ClientClusterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options/ClientClusterTest.php
+END
+CustomOptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options/CustomOptionTest.php
+END
+ClientConnectionFactoryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options/ClientConnectionFactoryTest.php
+END
+OptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Options/OptionTest.php
+END

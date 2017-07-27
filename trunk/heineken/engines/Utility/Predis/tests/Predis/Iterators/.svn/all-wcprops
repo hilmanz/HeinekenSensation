@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Iterators
+END
+MultiBulkResponseSimpleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Iterators/MultiBulkResponseSimpleTest.php
+END
+MultiBulkResponseTupleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/Predis/tests/Predis/Iterators/MultiBulkResponseTupleTest.php
+END

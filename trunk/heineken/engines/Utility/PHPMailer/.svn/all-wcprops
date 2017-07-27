@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer/LICENSE
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer/changelog.txt
+END
+docs.ini
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer/docs.ini
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer/class.phpmailer.php
+END
+class.pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer/class.pop3.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer/README.md
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/heineken-sensation-microsite/!svn/ver/6/trunk/heineken/engines/Utility/PHPMailer/class.smtp.php
+END
